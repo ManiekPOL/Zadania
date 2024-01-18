@@ -14,7 +14,7 @@ namespace TestProject1
             employee.AddGrade(2);
             employee.AddGrade(2);
 
-            var statistics = employee.GetStatistics();
+            var statistics = employee.GetStatisticsWithForEach();
 
             Assert.AreEqual(2, statistics.Min);
             Assert.AreEqual(6, statistics.Max);
